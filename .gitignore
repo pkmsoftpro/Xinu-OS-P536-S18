@@ -1,0 +1,51 @@
+# Updates to include some compiled files
+compile/.defs
+compile/.vers_num
+compile/.wav.wav
+compile/uboot-tool/mkimage
+compile/version
+compile/xinu
+compile/xinu.bin
+compile/xinu.boot
+compile/xinu.map
+config/conf.c
+config/conf.h
+config/config
+config/lex.yy.c
+config/y.tab.c
+include/conf.h
+system/conf.c
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
